@@ -1,0 +1,106 @@
+
+html {
+    box-sizing:border-box;    
+    font-size:62.5%;
+    line-height:1.6rem;
+    font-family: 'Roboto',sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 120%;
+    background: #F8F8FF;
+}
+
+.header {
+    width: 25%;
+    margin: 50px auto 0px;
+    color:#333;
+    background-color:rgb(128, 191, 236);
+    text-align: center;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+
+form, .content {
+    width: 25%;
+    margin: 0px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.87);
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.label-brand {
+    color:#333;
+    font-size: 1.8rem;
+}
+
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 162, 162);
+}
+
+.btn {
+    width: 100px;
+    padding: 10px;
+    font-size: 1.6rem;
+    color:#333;
+    background-color:rgb(98, 179, 236);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    width: 92%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #eed1d1;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+
+.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+.switch-users {
+    position: relative;
+    right: 0;
+    font-size: 1.6rem;
+}
+.switch-users a {
+    text-decoration: none;
+}
